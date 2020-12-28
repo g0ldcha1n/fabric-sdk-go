@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/huijinchain/fabric-sdk-go/pkg/client/channel"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fabsdk"
+	"github.com/huijinchain/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

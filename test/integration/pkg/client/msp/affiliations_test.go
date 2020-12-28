@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/huijinchain/fabric-sdk-go/pkg/client/msp"
+	"github.com/huijinchain/fabric-sdk-go/test/integration"
 )
 
 func TestAffiliation(t *testing.T) {

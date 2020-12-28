@@ -16,11 +16,11 @@ import (
 	lb "github.com/hyperledger/fabric-protos-go/peer/lifecycle"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	lifecyclepkg "github.com/hyperledger/fabric-sdk-go/pkg/fab/ccpackager/lifecycle"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/fab"
+	lifecyclepkg "github.com/huijinchain/fabric-sdk-go/pkg/fab/ccpackager/lifecycle"
+	fcmocks "github.com/huijinchain/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fab/resource"
+	"github.com/huijinchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/policydsl"
 )
 
 func TestClient_LifecycleInstallCC(t *testing.T) {
