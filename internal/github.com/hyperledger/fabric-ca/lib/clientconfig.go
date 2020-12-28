@@ -21,10 +21,10 @@ Please review third_party pinning scripts and patches for more details.
 package lib
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/core"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/tls"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/huijinchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/tls"
+	"github.com/huijinchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
 )
 
 // ClientConfig is the fabric-ca client's config

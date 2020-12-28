@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/cloudflare/cfssl/csr"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/huijinchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 )
 
 // RegistrationRequest for a new identity

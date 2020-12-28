@@ -10,8 +10,8 @@ import (
 	"time"
 
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fab/events/service/dispatcher"
 )
 
 // MockEventService implements a mock event service

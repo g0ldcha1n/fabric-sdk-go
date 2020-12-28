@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defmsp"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fabsdk/factory/defmsp"
 )
 
 // ========== MSP Provider Factory with custom user store ============= //

@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/event"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/huijinchain/fabric-sdk-go/pkg/client/channel"
+	"github.com/huijinchain/fabric-sdk-go/pkg/client/event"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fabsdk"
+	"github.com/huijinchain/fabric-sdk-go/test/integration"
 )
 
 func TestDefaultEventClient(t *testing.T) {

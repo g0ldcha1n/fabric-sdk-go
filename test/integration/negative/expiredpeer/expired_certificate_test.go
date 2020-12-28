@@ -9,22 +9,22 @@ package expiredpeer
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/huijinchain/fabric-sdk-go/pkg/fabsdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	mspclient "github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
+	mspclient "github.com/huijinchain/fabric-sdk-go/pkg/client/msp"
+	"github.com/huijinchain/fabric-sdk-go/pkg/client/resmgmt"
 
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/huijinchain/fabric-sdk-go/test/integration"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
+	"github.com/huijinchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/huijinchain/fabric-sdk-go/pkg/core/config"
+	"github.com/huijinchain/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/huijinchain/fabric-sdk-go/pkg/core/mocks"
+	fabImpl "github.com/huijinchain/fabric-sdk-go/pkg/fab"
 )
 
 const (
